@@ -1,0 +1,9 @@
+$primary: rgb(205, 247, 236);
+
+
+@mixin button(){
+    background-color: #b03b3b;
+    color: white;
+    padding: 0.4em;
+    border: 0;
+}

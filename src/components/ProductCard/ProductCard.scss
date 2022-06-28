@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.ProductCard {
+    height: fit-content;
+    width: 30%;
+    padding: .2em;
+    background-color: $primary;
+    margin: .5em;
+    min-width: 15em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h3, p {
+        width: 100%;
+    }
+
+    .addBtn{
+        @include button;
+    }
+}
